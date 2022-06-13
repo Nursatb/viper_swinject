@@ -1,0 +1,13 @@
+name: "viper_swinject"
+summary: "Viper with Swift. Nursat: POP"
+author: "Nursat Baigenzheev"
+version: "1.0.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files: 
+
+#Configurator
+- {name: Configurator/Assembly.swift path: Code/Configurator/Assembly.swift.liquid}
+- {name: Configurator/Protocols.swift path: Code/Configurator/Protocols.swift.liquid}
