@@ -6,8 +6,26 @@ license: "MIT"
 
 # The declarations for code files
 
-code_files: 
+code_files:
 
-#Configurator
-- {name: Configurator/Assembly.swift path: Code/Configurator/Assembly.swift.liquid}
-- {name: Configurator/Protocols.swift path: Code/Configurator/Protocols.swift.liquid}
+# Configurator
+- {name: Configurator/Assembly.swift, path: Code/Configurator/Assembly.swift.liquid}
+- {name: Configurator/Protocols.swift, path: Code/Configurator/Protocols.swift.liquid}
+
+# Coordinator
+- {name: Coordinator.swift, path: Code/Coordinator.swift.liquid}
+
+# View
+- {name: View/ViewController.swift, path: Code/View/ViewController.swift.liquid}
+
+# Interactor
+- {name: Interactor/Interactor.swift, path: Code/Interactor/Interactor.swift.liquid}
+
+# Presenter
+- {name: Presenter/Presenter.swift, path: Code/Presenter/Presenter.swift.liquid}
+
+# Entity
+- {name: Entity/Entity.swift, path: Code/Entity/Entity.swift.liquid}
+
+# Router
+- {name: Router/Router.swift, path: Code/Router/Router.swift.liquid}
